@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/apple"
+        android:id="@+id/logo"/>
+    <TextView
+        android:layout_below="@id/logo"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="YOUR ACCOUNT FOR EVERYTHINNG"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:text="Enter Your Email"
+        android:textSize="20sp"
+        android:layout_below="@id/textView" />
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/loginemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbg"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:hint="Enter Email"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/textView2" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:text="Enter Your Passward"
+        android:textSize="20sp"
+        android:layout_below="@id/loginemail"/>
+    <EditText
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/loginpassward"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbg"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:hint="Enter Passward"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/textView3"/>
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#000"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:gravity="center"
+        android:text="LOG IN"
+        android:textColor="#fff"
+        android:layout_below="@id/loginpassward"/>
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:gravity="center"
+        android:text="For a new users?Sign up"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

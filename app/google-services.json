@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556283644690",
+    "firebase_url": "https://mobilemarket-babb8.firebaseio.com",
+    "project_id": "mobilemarket-babb8",
+    "storage_bucket": "mobilemarket-babb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556283644690:android:4b63c8e3d63a50dffb81cb",
+        "android_client_info": {
+          "package_name": "com.ako.mobilesmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556283644690-u2gtuoekfs9i9mpv1tnrmcjn0mls1n1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ako.mobilesmarket",
+            "certificate_hash": "474efb58a88b100aa016f9ccde1852c12c58d558"
+          }
+        },
+        {
+          "client_id": "556283644690-k89oou1aa6ccsv9alt8ve0e4i9ifhfcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhFL20lEXP1nPbl-1eUrPOxQuKWT5dwk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556283644690-k89oou1aa6ccsv9alt8ve0e4i9ifhfcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:gravity="center"
+        android:text="Welcome user signup here"
+        android:textSize="28sp" />
+        <EditText
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editbg"
+            android:hint="Enter Email"
+            android:id="@+id/signupemail" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editbg"
+            android:hint="Enter Passward"
+            android:id="@+id/singuppassward"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="LOG IN"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="#406ADD"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:id="@+id/signupbuttom"/>
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For a current users?Login up"
+        android:id="@+id/login"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/apple"
+            android:icon="@drawable/apple"
+            android:title="Apple" />
+        <item
+            android:id="@+id/huawei"
+            android:icon="@drawable/apple"
+            android:title="Huawei" />
+        <item
+            android:id="@+id/samsung"
+            android:icon="@drawable/apple"
+            android:title="Samsung" />
+
+        <item
+            android:id="@+id/Xiaomi"
+            android:icon="@drawable/apple"
+            android:title="Xiaomi" />
+
+        <item
+            android:id="@+id/Oppo"
+            android:icon="@drawable/apple"
+            android:title="Oppo" />
+
+        <item
+            android:id="@+id/Vivo"
+            android:icon="@drawable/apple"
+            android:title="Vivo" />
+
+        <item
+            android:id="@+id/Google"
+            android:icon="@drawable/apple"
+            android:title="Google" />
+
+    </group>
+</menu>
